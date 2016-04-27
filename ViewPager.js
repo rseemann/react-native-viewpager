@@ -10,9 +10,9 @@ var {
   Animated,
   PropTypes,
   StyleSheet,
+  StaticRenderer,
 } = React;
 
-var StaticRenderer = require('react-native/Libraries/Components/StaticRenderer');
 var TimerMixin = require('react-timer-mixin');
 
 var DefaultViewPageIndicator = require('./DefaultViewPageIndicator');
